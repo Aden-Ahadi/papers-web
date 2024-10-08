@@ -1,1 +1,1 @@
-# React-App-Template
+#Landing page for The BestStudent system
