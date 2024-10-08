@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import ShimmerButton from "./ui/shimmer-button";
 import waitlist from "@zootools/waitlist-js";
-const clickPopup = (event) => {
+const clickPopup = (event: React.MouseEvent<HTMLButtonElement>) => {
   event.preventDefault();
 
   // Pass your waitlist ID

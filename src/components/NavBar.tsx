@@ -3,9 +3,8 @@ import { HStack } from "@chakra-ui/react";
 import SparklesText from "./ui/sparkles-text";
 import ShimmerButton from "./ui/shimmer-button";
 import waitlist from "@zootools/waitlist-js";
-import ColorModeSwitch from "./ColorModeSwitch";
 
-const clickPopup = (event) => {
+const clickPopup = (event: React.MouseEvent<HTMLButtonElement>) => {
   event.preventDefault();
 
   // Pass your waitlist ID

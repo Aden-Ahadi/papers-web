@@ -1,6 +1,6 @@
 import ShimmerButton from "@/components/ui/shimmer-button";
 import waitlist from "@zootools/waitlist-js";
-const clickPopup = (event) => {
+const clickPopup = (event: React.MouseEvent<HTMLButtonElement>) => {
   event.preventDefault();
 
   // Pass your waitlist ID
